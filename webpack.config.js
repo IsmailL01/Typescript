@@ -1,4 +1,4 @@
-const path = require("pash")
+const path = require('pash')
 
 module.exports = {
     mode: "development",
@@ -17,6 +17,6 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, "dist")
+        path: path.resolve(__dirname, 'dist')
     }
 }
